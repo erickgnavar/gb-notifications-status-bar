@@ -12,6 +12,7 @@
 		A7300A6C24867B760095A891 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7300A6A24867B760095A891 /* MainMenu.xib */; };
 		A7300A7824867B760095A891 /* gh_notifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7300A7724867B760095A891 /* gh_notifierTests.swift */; };
 		A7300A8324867B760095A891 /* gh_notifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7300A8224867B760095A891 /* gh_notifierUITests.swift */; };
+		A7300A93248684BB0095A891 /* GithubApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7300A92248684BB0095A891 /* GithubApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A7300A7E24867B760095A891 /* gh-notifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gh-notifierUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7300A8224867B760095A891 /* gh_notifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gh_notifierUITests.swift; sourceTree = "<group>"; };
 		A7300A8424867B760095A891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7300A92248684BB0095A891 /* GithubApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				A7300A6A24867B760095A891 /* MainMenu.xib */,
 				A7300A6D24867B760095A891 /* Info.plist */,
 				A7300A6E24867B760095A891 /* gh_notifier.entitlements */,
+				A7300A92248684BB0095A891 /* GithubApi.swift */,
 			);
 			path = "gh-notifier";
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7300A6724867B720095A891 /* AppDelegate.swift in Sources */,
+				A7300A93248684BB0095A891 /* GithubApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
